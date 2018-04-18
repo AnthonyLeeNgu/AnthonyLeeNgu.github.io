@@ -1,0 +1,35 @@
+body {
+    background-color: #f9f9f9;
+}
+
+
+.header, .footer {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+#navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+    
+}
+
+#navigation li:not(:first-child):before {
+    content: " | ";
+}
+
+#left {
+    color: white;
+    background-color: teal
+}
