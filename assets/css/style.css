@@ -91,14 +91,10 @@ h2, h3 {
     font-size: 22px;
 }
  
-#main-container {
-    padding-top: 130px;
-}
 
-.main-section {
+.main-container {
     background: #fff;
-    padding: 30px;
-    margin: 0 0 40px 0;
+    margin: 130px 0 40px 0;
     width: 100%;
     max-width: 650px;
     float: left;
